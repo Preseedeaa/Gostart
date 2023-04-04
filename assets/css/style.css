@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html, body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /*------------------ navigatio bar styles -------------------*/
@@ -158,7 +161,7 @@ nav .menu button span{
 
 .section1{
     width: 100%;
-    height: 200vh;
+    height: 1249px;
     background-image: url("../images/union.svg");
     background-size: 100%;
     background-position: -50px -1100px;
@@ -263,3 +266,78 @@ nav .menu button span{
     transition: 2s;
     color: #06BCC1;
 }
+
+/*-------- Section1 queries -----------*/
+
+
+
+/*------ section2 styles ---------*/
+
+.section2{
+    width: 100%;
+    height: 91px;
+    background-color: #000;
+    isolation: isolate;
+    gap: 10px;
+    padding: 12px 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-image: url("../images/union1.svg");
+    background-position: -50px -100px;
+}
+
+.section2 p{
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+
+}
+
+.section2 ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.section2 ul li{
+    list-style-type: none;
+    padding: 15px; 
+}
+
+.section2 ul li img {
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+
+.section2 .lm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 40px;
+    gap: 10px;
+    border: none;
+    background: #06BCC1;
+    border-radius: 54px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 40px auto 0 160px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #100F00;
+    transform: translate(50% , -40%);
+}
+
+.section2 .lm:hover{
+    background-color: #191919;
+    color: #06BCC1; 
+    transition: 0.8s;
+}
+
