@@ -341,3 +341,24 @@ nav .menu button span{
     transition: 0.8s;
 }
 
+/*----------- section2 queries --------------*/
+
+
+
+/*----------- section3 styling --------------*/
+
+.section3{
+    width: 100%;
+    height: 2082px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    padding: 80px 150px;
+    gap: 100px;
+    isolation: isolate;
+    flex: none;
+    order: 2;
+}
