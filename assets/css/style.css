@@ -44,6 +44,7 @@ nav .logo p{
     line-height: 12.8px;
     font-size: 16px;
     align-self:flex-end;
+    color: #454648;
 }
 
 nav .menu{
@@ -86,6 +87,8 @@ nav .menu ul li #current{
 
 nav .menu .ham{
     display: none;
+    text-decoration: none;
+    cursor: normal;
 }
 
 nav .menu button{
@@ -96,3 +99,46 @@ nav .menu button{
     border: 2px solid #000;
     background-color: #fff001;
 }
+
+nav .menu button span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -1.1%;
+    align: center;
+    vertical-align: top;
+}
+
+/*---------- navigation media queries --------*/
+
+@media only screen and (max-width: 420px) {
+    
+    nav{
+        margin-right: 0;
+    }
+    
+    nav .menu ul {
+        display: none;
+    }
+    
+    nav .menu button {
+        display: none;
+    }
+
+    nav .logo{
+        top: 21px;
+        left: 10px; 
+        position: absolute;
+        width: 275px; 
+        height: 30px;  
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto auto;
+    }
+
+    nav .menu .ham{
+        display: all;
+    }
+}
+
+/*-------------- section1 styles --------------*/
