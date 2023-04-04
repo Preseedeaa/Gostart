@@ -2,15 +2,97 @@
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100%;
-    height: 100%;
 }
+
 html, body{
     margin: 0;
     padding: 0;
 }
+
 /*------------------ navigatio bar styles -------------------*/
 
-nav a{
+nav{
+    height: 72px;
+    width:100%;
+    background-color: #fff001;   
+    fill: solid;
+    box-shadow: 0px 10px 10px  rgba(100 100 100 / 0.3);
+}
+
+nav .logo{
+    top: 21px;
+    left: 120px; 
+    position: absolute;
+    width: 277px; 
+    height: 30px;  
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+}
+
+nav .logo img{
+    width: 188px;
+    height: 30px;
+}
+
+nav .logo p{
+    grid-row: 2 / 1;
+    grid-column: 2 / 2;
+    width: 85px;
+    font-family: Satoshi;
+    font-weight: 400;
+    line-height: 12.8px;
+    font-size: 16px;
+    align-self:flex-end;
+}
+
+nav .menu{
+    width: 393px;
+    height: 46px;
+    position: absolute;
+    top: 13px;
+    right: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav .menu ul{
+    display: flex;
+    gap: 24px;
+    padding: 20px 20px 20px 20px;
+    height: 46px;
+    width: 176px;
+}
+
+nav .menu ul li{
+    list-style-type: none;
+    flex: 1;
+    margin-top: -5px;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 12.8px;
+    font-family:  satoshi;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav .menu ul li #current{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+nav .menu .ham{
     display: none;
+}
+
+nav .menu button{
+    width: 177px;
+    height: 46px;
+    border-radius: 90px;
+    gap: 4px;
+    border: 2px solid #000;
+    background-color: #fff001;
 }
