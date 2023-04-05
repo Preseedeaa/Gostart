@@ -171,7 +171,7 @@ nav .menu button span{
 .section1 h1{
     width: 100%;
     height: 180px;
-    font-family:  satoshi;
+    font-family:  'satoshi';
     font-style: bold;
     font-size: calc(30px + (70 - 30)*((100vw - 320px)/(1920 - 320)));
     line-height: 90px;
@@ -185,7 +185,7 @@ nav .menu button span{
     height: 64px;
     text-align: center;
     padding-top: 60px;
-    font-family: satoshi;
+    font-family: 'satoshi';
     font-style: mixed;
     font-size: 23px;
     line-height: 34px;
@@ -196,6 +196,22 @@ nav .menu button span{
 
 .section1 .para1 a{
     cursor: pointer;
+}
+
+.section1 .para1 a .underline{
+    font-family: 'satoshi';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34px;
+    letter-spacing: -1.1%;
+    border-bottom: 2px solid black;
+}
+
+.section1 .para1 a .yunderline{
+    border-bottom: 5px solid #fce041;
+      background: 
+       linear-gradient(90deg, #fce041, #fce041) 0 1em/100% 9px repeat-x; 
 }
 
 .section1 img{
@@ -351,14 +367,98 @@ nav .menu button span{
     width: 100%;
     height: 2082px;
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    align-items: center;
     padding: 80px 150px;
     gap: 100px;
     isolation: isolate;
     flex: none;
     order: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.section3 h1{
+    width: 659px;
+    height: 65px;
+    margin: auto;
+    vertical-align: top;
+    font-family: 'satoshi';
+    font-size: 46px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: -0.011em;
+    color: black;   
+    padding-top: 80px;
+}
+
+.section3 h1 span{
+  /*  background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #fce041 50%
+    ); */
+    background: linear-gradient( 90deg, #fce041, #fce041) 0 0.6em/100% 20px repeat-x;
+    font-family: 'satoshi';
+    font-size: 46px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 65px;
+    letter-spacing: -0.011em;
+}
+
+.section3 h2{
+    font-family: 'satoshi';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -0.011em;
+    padding-top: 8px;
+}
+
+.section3 .sects{
+    width: 1140px;
+    height: 1700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 50px;
+    z-index: 4;
+    align-self: stretch;
+}
+
+.section3 .sects .sect{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.section3 .sects .sect1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.section3 .sects .sect1 .textsect{
+    flex: 1;
+    width: 45%;
+    height: 100%;
+}
+
+.section3 .sects .sect1 .imgsect{
+    flex: 2;
+    width: 45%;
+    height: 100%;
 }
