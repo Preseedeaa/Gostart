@@ -512,12 +512,64 @@ nav .menu button span{
 
 /*------- sect2 styles -------------*/
 
+.section3 .sects .sect2{
+    border: none;
+}
+
 .section3 .sects .sect2 .textsect{
     order: 2;
 }
 
 .section3 .sects .sect2 .imgsect{
     order: 1;
+    margin-left: -30px;
+}
+
+.section3 .sects .sect2 .textsect .yellow{
+    width: 344px;
+    height: 48px;
+    padding: auto;
+    padding-top: 12px;
+    background-color: #fff001;
+    font-family: 'satoshi';
+    font-weight: 300;
+    font-size: 22.5px;
+    line-height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+
+.section3 .sects .sect2 .textsect .grey{
+    width: 324px;
+    height: 48px;
+    padding: auto;
+    padding-top: 12px;
+    background-color: #C5D8D1;
+    font-family: 'satoshi';
+    font-weight: 300;
+    font-size: 22.5px;
+    line-height: 32.4px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+
+.section3 .sects .sect2 .textsect .transparent{
+    font-family: 'satoshi';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    width: 541px;
+    height: 64px;
+    margin-bottom: 16px;
+}
+
+.section3 .sects .sect2 .textsect p{
+    width: 519px;
+    height: 160px;
+    font-weight: 400;
+    line-height: 32px;
 }
 
 /*------- sect3 styles -------------*/
@@ -532,4 +584,37 @@ nav .menu button span{
 
 .section3 .sects .sect3{
     margin: 0 0 0 0;
+    border: none;
+}
+
+.section3 .sects .sect3 .textsect .yellow{
+    width: 404px;
+    height: 80px;
+    padding: auto;
+    padding-top: 12px;
+    background-color: #fff001;
+    font-family: 'satoshi';
+    font-weight: 300;
+    font-size: 22.5px;
+    line-height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+
+.section3 .sects .sect3 .textsect .transparent{
+    font-family: 'satoshi';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    width: 541px;
+    height: 64px;
+    margin-bottom: 46px;
+}
+
+.section3 .sects .sect3 .textsect p{
+    width: 519px;
+    height: 160px;
+    font-weight: 400;
+    line-height: 32px;
 }
