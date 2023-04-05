@@ -464,12 +464,18 @@ nav .menu button span{
 
 /*------- sect1 styles -------------*/
 
+.section3 .sects .sect1{
+    border: none;
+    padding-left: 30px;
+}
+
 .section3 .sects .sect1 .textsect{
     order: 1;
 }
 
 .section3 .sects .sect1 .imgsect{
     order: 2;
+    margin-top: -80px;
 }
 
 .section3 .sects .sect1 .textsect .yellow{
@@ -484,10 +490,24 @@ nav .menu button span{
     line-height: 32px;
     text-align: center;
     vertical-align: middle;
+    margin-bottom: 16px;
 }
 
 .section3 .sects .sect1 .textsect .transparent{
+    font-family: 'satoshi';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    width: 391px;
+    height: 64px;
+    margin-bottom: 16px;
+}
 
+.section3 .sects .sect1 .textsect p{
+    width: 519px;
+    height: 160px;
+    font-weight: 400;
+    line-height: 32px;
 }
 
 /*------- sect2 styles -------------*/
