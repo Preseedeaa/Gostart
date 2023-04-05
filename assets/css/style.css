@@ -422,43 +422,94 @@ nav .menu button span{
     width: 1140px;
     height: 1700px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    gap: 50px;
+    gap: 100px;
     z-index: 4;
     align-self: stretch;
+    
+    margin: 100px auto 0 auto;
 }
 
 .section3 .sects .sect{
     width: 100%;
     height: 500px;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0;
-    padding-bottom: 100px;
+    border: 2px solid black;
+    margin: 0 0 100px 0;
 }
 
-.section3 .sects .sect1{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0;
-    padding-bottom: 100px;
-}
-
-.section3 .sects .sect1 .textsect{
-    flex: 1;
+.section3 .sects .sect .textsect{
     width: 45%;
     height: 100%;
+    
+}
+
+.section3 .sects .sect .imgsect{
+    width: 45%;
+    height: 100%;
+    
+}
+
+.section3 .sects .sect .imgsect img{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+/*------- sect1 styles -------------*/
+
+.section3 .sects .sect1 .textsect{
+    order: 1;
 }
 
 .section3 .sects .sect1 .imgsect{
-    flex: 2;
-    width: 45%;
-    height: 100%;
+    order: 2;
+}
+
+.section3 .sects .sect1 .textsect .yellow{
+    width: 254px;
+    height: 48px;
+    padding: auto;
+    padding-top: 12px;
+    background-color: #fff001;
+    font-family: 'satoshi';
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section3 .sects .sect1 .textsect .transparent{
+
+}
+
+/*------- sect2 styles -------------*/
+
+.section3 .sects .sect2 .textsect{
+    order: 2;
+}
+
+.section3 .sects .sect2 .imgsect{
+    order: 1;
+}
+
+/*------- sect3 styles -------------*/
+
+.section3 .sects .sect3 .textsect{
+    order: 1;
+}
+
+.section3 .sects .sect3 .imgsect{
+    order: 2;
+}
+
+.section3 .sects .sect3{
+    margin: 0 0 0 0;
 }
