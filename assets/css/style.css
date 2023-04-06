@@ -756,7 +756,7 @@ nav .menu button span{
 }
 
 .section5 h1 span{
-    background: linear-gradient( 90deg, #fce041, #fce041) 0 0.8em/100% 10px repeat-x;
+    background: linear-gradient( 90deg, #c9b22e, #c9b22e) 0 0.8em/100% 10px repeat-x;
 }
 
 .section5 p{
@@ -865,6 +865,7 @@ nav .menu button span{
     background-size: 488px;
     background-position: 0% 30%;
     padding-top: 70px;
+    position: relative;
 }
 
 .section6 h1{
@@ -897,6 +898,71 @@ nav .menu button span{
 
 .section6 .commentbox img{
     margin: 16px;
+}
+
+.section6 .commentbox .comment{
+    width: 634px;
+    height: 185px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.section6 .commentbox .comment p{
+    width: 607px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    margin: 10px;
+    padding-right: 16px;
+}
+
+.section6 .commentbox .comment p b{
+    font-size: 18px;
+}
+
+.section6 .commentbox .comment audio{
+    margin-top: 25px;
+}
+
+.section6 .navigation{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 0;
+    display: block;
+}
+
+.section6 .left img{
+    display: block;
+    margin: 7px 12px;
+}
+
+.section6 .left{
+    left: 350px;
+    top: 354px;
+}
+
+.section6 .right{
+    right: 350px;
+    top: 354px;
+}
+
+.section6 .right img{
+    display: block;
+    margin: 7px 16px;
+}
+
+.section6 .navigation:hover{
+    border: 1px solid #fce041;
+    color:#fce041;
+    background-color: #fff;
+    transition: 0.5s;
 }
 
 /*--------- section6 queries --------*/
