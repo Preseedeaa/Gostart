@@ -722,7 +722,7 @@ nav .menu button span{
 }
 
 .section4 h1 span{
-    background: linear-gradient( 90deg, #fce041, #fce041) 0 0.6em/100% 20px repeat-x;;
+    background: linear-gradient( 90deg, #fce041, #fce041) 0 0.6em/100% 20px repeat-x;
 }
 
 /*--------- section4 queries -----------*/
@@ -736,8 +736,66 @@ nav .menu button span{
     height: 940px;
     background-color: #000;
     color: #fff;
+    background-image: url("../images/union1.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
 }
 
+.section5 h1{
+    width: 858px;
+    height: 65px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 64px;
+    text-align: center;
+    color: #fcfbf3;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    padding-top: 80px;
+}
+
+.section5 h1 span{
+    background: linear-gradient( 90deg, #fce041, #fce041) 0 0.8em/100% 10px repeat-x;
+}
+
+.section5 p{
+    width: 921px;
+    height: 64px;
+    font-family: 300;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.section5 .prgstages{
+    width: 1142px;
+    height: 457px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 40px;
+    z-index: 3;
+}
+
+.section5 .prgstages .stage{
+    width: 354px;
+    height: 457px;
+    background-color: #000;
+    border: 0.1px solid rgb(148, 148, 148);
+}
+
+.section5 .prgstages .stage img{
+    width: 213px;
+    height: 124px;
+    display: block;
+    margin: 40px 0 20px 0;
+    padding: 0 auto;
+}
 
 /*--------- section5 queries ------------*/
 
