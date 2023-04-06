@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -724,4 +723,77 @@ nav .menu button span{
 
 .section4 h1 span{
     background: linear-gradient( 90deg, #fce041, #fce041) 0 0.6em/100% 20px repeat-x;;
+}
+
+/*--------- section4 queries -----------*/
+
+
+
+/* --------------- section5 styles --------------- */
+
+.section5{
+    width: 100vw;
+    height: 940px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*--------- section5 queries ------------*/
+
+
+
+/*------------------- section6 styles  -----------------------*/
+
+.section6{
+    width: 100vw;
+    height: 599px;
+    background-color: #fff001;
+}
+
+
+/*--------- section6 queries --------*/
+
+
+
+/*------------ section7 styles ----------*/
+
+.section7{
+    width: 100vw;
+    height: 1000px;
+    background-color: #000;
+}
+
+/*----------- section7 queries -----------*/
+
+/*--------- section8 styles ------------*/
+
+.section8{
+    width: 100vw;
+    height: 567px;
+    background-color: #c5d8d1;
+}
+
+/*---------- section9 styles ------------*/
+
+.section9{
+    width: 100vw;
+    height: 800px;
+    background-color: #fff;
+}
+
+/*--------------- section10 styles --------*/
+
+.section10{
+    width: 100vw;
+    height: 932px;
+    background-color: #fff;
+}
+
+/*------ footer styles ---------*/
+
+footer{
+    width: 100vw;
+    height: 250px;
+    background-color: #454648;
 }
