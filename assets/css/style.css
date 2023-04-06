@@ -766,14 +766,14 @@ nav .menu button span{
     font-size: 22px;
     line-height: 32px;
     text-align: center;
-    margin: 0 auto;
-    padding-bottom: 40px;
+    margin: auto auto;
+    padding: 0px auto 40px auto;
 }
 
 .section5 .prgstages{
     width: 1142px;
     height: 457px;
-    margin: 0 auto;
+    margin: 40px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -790,13 +790,66 @@ nav .menu button span{
 }
 
 .section5 .prgstages .stage img{
-    width: 213px;
-    height: 124px;
-    display: block;
-    margin: 40px 0 20px 0;
-    padding: 0 auto;
+   display: block;
+   margin: 40px auto 20px auto;
 }
 
+.section5 .prgstages .stage h3{
+    height: 32px;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
+.section5 .prgstages .stage ul{
+    width: 275px;
+    margin: 0 auto auto auto;
+    padding-left: 24px; 
+}
+
+.section5 .prgstages .stage ul li{
+    padding-bottom: 8px;
+    line-height: 30px;
+}
+
+.section5 h4{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    width: 100%;
+    text-align: center;
+}
+
+.section5 button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 40px;
+    gap: 10px;
+    border: none;
+    background: #06BCC1;
+    border-radius: 54px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px auto 0 auto;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #100F00;
+}
+
+.section5 button:hover{
+    color:#06BCC1;
+    background-color: #242424;
+    cursor: pointer;
+    transition: 0.8s;
+}
 /*--------- section5 queries ------------*/
 
 
