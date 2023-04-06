@@ -860,8 +860,44 @@ nav .menu button span{
     width: 100vw;
     height: 599px;
     background-color: #fff001;
+    background-image: url("../logos/quote-1-traced.svg");
+    background-repeat: no-repeat;
+    background-size: 488px;
+    background-position: 0% 30%;
+    padding-top: 70px;
 }
 
+.section6 h1{
+    width: 570px;
+    height: 130px;
+    display: block;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section6 h1 span{
+    background: linear-gradient( 90deg, #fcfbf3, #fcfbf3) 0 0.8em/100% 10px repeat-x;
+
+}
+
+.section6 .commentbox{
+    width: 920px;
+    height: 285px;
+    margin: 24px auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 148px;
+}
+
+.section6 .commentbox img{
+    margin: 16px;
+}
 
 /*--------- section6 queries --------*/
 
