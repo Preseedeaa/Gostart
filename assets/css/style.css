@@ -1161,6 +1161,188 @@ nav .menu button span{
     width: 100vw;
     height: 932px;
     background-color: #fff;
+    padding-bottom: 415px;
+}
+
+.section10 .buttons{
+    width: 434px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px auto 40px auto;
+    padding-top: ;
+    border-radius: 90px 90px 90px 90px;
+    background-color: #c1c1c1;
+}
+
+.section10 .button{
+    flex: 1;
+    width: 217px;
+    height: 58px;
+    cursor: pointer;
+    background-color: #c1c1c1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+}
+
+.section10 .button:hover{
+    background-color: #929292;
+    transition: 0.4s;
+}
+
+.section10 .button.active{
+    flex: 1.2;
+    background-color: #fff001;
+    border: 3px solid #fff001;
+    box-shadow: 2px 1px 5px 0 #3a3a3a;
+    border-radius: 90px 90px 90px 90px;
+    width: 237px;
+    z-index: 100;
+}
+
+.section10 .button1{
+    border-radius: 90px 0 0 90px;
+    border-right: 0px;
+    z-index: 99;
+}
+
+.secton10 button.button2{
+    border-radius: 0px 90px 90px 0px;
+    border-left: 0px;
+    z-index: 99;
+}
+
+.section10 .passport{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 16px;
+    gap: 16px;
+    isolation: isolate;
+    width: 1140px;
+    height: 674px;
+    margin: 0 auto 0 auto;
+    box-shadow: 2px 1px 5px 1px #c6c6c6;
+    border-radius: 10px;
+    background-image: url("../images/passport-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 90px;
+    position: relative;
+}
+.section10 .passport h1{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.section10 .passport h1 span{
+    background: linear-gradient( 90deg, #fce041, #fce041) 0 0.8em/100% 15px repeat-x;
+}
+
+.section10 .passport .p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 221px;
+}
+
+.section10 .passport .start-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 40px;
+    gap: 10px;
+    border: none;
+    background: #06BCC1;
+    border: 1px solid #06bcc1;
+    border-radius: 54px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 40px auto 0 auto;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #100F00;
+}
+
+.section10 .passport .start-app:hover{
+    cursor: pointer;
+    border: 1px solid #06bcc1;
+    background-color: white;
+    color: #06bcc1;
+    transition: 0.5s;
+}
+
+.section10 .passport .p1{
+    font-family: ;
+    font-weight: 400;
+    font-size:  15.5px;
+    line-height: 32px;
+    color: #454648;
+    position: absolute; 
+    bottom: 200px;
+}
+
+.imge1,
+.imge2,
+.imge3,
+.imge4,
+.imge5,
+.imge6{
+    position: absolute;
+}
+
+.imge1{
+    top: 29.27px;
+    left: 67.45px;
+    width: 47.03px;
+    height: auto;
+}
+
+.imge2{
+    top: 86.73px;
+    right: 112.37px;
+    width: 39.63px;
+    height: auto;
+}
+
+.imge3{
+    top: 180.73px;
+    left: 129px;
+    width: 39.63px;
+    height: auto;
+}
+
+.imge4{
+    top: 172px;
+    right: 58.55px;
+    width: 91.9px;
+    height: auto;
+}
+
+.imge5{
+    top: 25px;
+    right: 15px;
+    width: 80px;
+    height: auto;
+}
+
+.imge6{
+    top: 235.73px;
+    left: 287.75px;
+    width: 52px;
+    height: auto;
 }
 
 /*------ footer styles ---------*/
