@@ -1058,4 +1058,157 @@ footer{
     width: 100vw;
     height: 250px;
     background-color: #454648;
+    color: white;
+    position: relative;
+}
+
+footer .content{
+    width: 1200px;
+    height: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+footer .content .lcfb{
+    width: 100%;
+    height: 118px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .content .lcfb .element1{
+    width: 281px;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-right: 42px;
+}
+
+footer .content .lcfb .element1 img{
+    width: 182px;
+    height: 48.06px;
+}
+
+
+footer .content .p{
+    width: 100px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .content p{
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+}
+
+footer .content h2{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    width: 125px;
+    height: 24px;
+}
+
+footer .content .lcfb .element1 p{
+    margin-left: 0px;
+    width: 140px;
+}
+
+footer .content .lcfb .element2{
+    width: 297px;
+    height: 98px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+footer .content .lcfb .element3{
+    width: 180px;
+    height: 86;
+    margin-top: 20px;
+    gap: 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .content .lcfb .element3 ul{
+    list-style-type: none;
+    width: 180px;
+    height: 38px;
+}
+
+footer .content .lcfb .element3 ul li{
+    gap: 8px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+footer .content .lcfb .element3 ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer .content .lcfb .element3 ul li a:hover{
+    color: #c9b22e;
+}
+
+footer .content .lcfb .element4{
+    width: 220px;
+    height: 96px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer .content .lcfb .element4 h2{
+    width: 220px;
+    margin-top: 20px;
+}
+
+footer .content .lcfb .element4 button{
+    width: 132px;
+    height: 48px;
+    border-radius: 90px;
+    gap: 4px;
+    border: 1px solid #151515;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -1.1%;
+    align: center;
+    padding: 12px 0px;
+}
+
+footer .content .lcfb .element4 button:hover{
+    border-color: white;
+    background-color: #fff;
+    color: black;
+    transition: 1s;
+}
+footer .bg-foot{
+    position: absolute;
+    transform: translate(75% , 90%);
 }
