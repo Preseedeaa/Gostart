@@ -1071,25 +1071,88 @@ nav .menu button span{
     margin:  0 auto 20px auto;;
 }
 
-.section9 .slider{
-    width: 2400px;
-    height: 600px;
-    border: 1px dotted black;
-    margin-left: 150px;
-    display: flex;
-    flex-direction: row;
-    overflow-y: hidden;
-}
-.section9 .slider .slidecanvas{
+.section9 .scrollhide{
     width: calc(100vw - 150px);
-    height: 110%;
-    overflow-x: scroll;
+    height: 650px;
+    margin-left: 150px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-.section9 .slider .slidecanvas .slide{
-    width:400px;
-    height: 100%;
-    border: 1px dotted red;
+.section9 .scrollhide .slider{
+    width: 100%;
+    height: 700px;
+    overflow-y: hidden;
+    
+}
+.section9 .scrollhide .slider .slidecanvas{
+    width: 3500px;
+    height: 120%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-right: 200px;
+    gap: 40px;
+}
+
+.section9 .scrollhide .slider .slidecanvas .slide{
+    width:650px;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.section9 .scrollhide .slider .slidecanvas .slide img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.section9 .scrollhide .slider .slidecanvas .slide ul{
+    margin-left: 48px;
+}
+
+.section9 .scrollhide .slider .slidecanvas .slide ul li{
+    list-style-type: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.section9 .scrollhide .slider .slidecanvas .slide ul li:before{
+    
+    content: ""; /* add empty content */
+    display: inline-block; /* set the display to inline-block */
+    width: 12px; /* set the width of the image */
+    height: 12px; /* set the height of the image */
+    margin-right: 10px; /* add some margin to the right of the image */
+    vertical-align: middle; /* align the image with the middle of the text */
+    background-image: url("../images/vector3.svg"); /* add the image as a background */
+    background-size: contain; /* set the background size to contain */
+    background-repeat: no-repeat; /* prevent the background from repeating */
+    
+}
+
+.section9 .scrollhide .slider .slidecanvas .slide h3{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 30px;
+    margin: 0 auto 20px auto;
+}
+
+.section9 .scrollhide .slider .slidecanvas .slide p{
+    width: 400px;
+    height: auto;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin:5px auto 0 auto;
 }
 
 /*--------------- section10 styles --------*/
